@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .glass-card {
+    background-color: rgb(255 255 255 / 0.7);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgb(255 255 255 / 0.2);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+}
