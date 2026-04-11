@@ -17,8 +17,8 @@ export const Header: React.FC<HeaderProps> = ({ user, onLoginClick, onSignupClic
           <ListTodo className="w-8 h-8 text-indigo-500" />
         </div>
         <div>
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900">FocusFlow</h1>
-          <p className="text-sm text-gray-500 font-medium tracking-wide">Organize your day, own your life</p>
+          <h1 className="text-3xl font-bold tracking-tight text-gray-900">Plan Your Day</h1>
+          <p className="text-sm text-gray-500 font-medium tracking-wide">A simple task management app to organize your daily life.</p>
         </div>
       </div>
 
